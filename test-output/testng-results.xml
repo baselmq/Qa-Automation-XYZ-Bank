@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-19T12:39:46 EET" name="Default suite" finished-at="2023-01-19T12:39:54 EET" duration-ms="7277">
+    <groups>
+    </groups>
+    <test started-at="2023-01-19T12:39:46 EET" name="Default test" finished-at="2023-01-19T12:39:54 EET" duration-ms="7277">
+      <class name="Customer.login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Customer.login@49a71302]" started-at="2023-01-19T12:39:46 EET" name="setup" finished-at="2023-01-19T12:39:48 EET" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginAsCustomer()[pri:1, instance:Customer.login@49a71302]" started-at="2023-01-19T12:39:48 EET" name="LoginAsCustomer" finished-at="2023-01-19T12:39:50 EET" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsCustomer -->
+        <test-method signature="AddingAmount()[pri:2, instance:Customer.login@49a71302]" started-at="2023-01-19T12:39:50 EET" name="AddingAmount" finished-at="2023-01-19T12:39:53 EET" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingAmount -->
+        <test-method signature="Withdraw_invalid_amount()[pri:3, instance:Customer.login@49a71302]" started-at="2023-01-19T12:39:53 EET" name="Withdraw_invalid_amount" finished-at="2023-01-19T12:39:54 EET" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Withdraw_invalid_amount -->
+      </class> <!-- Customer.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
